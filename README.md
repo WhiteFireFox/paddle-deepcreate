@@ -23,3 +23,8 @@
 <br><br>
 &emsp;&emsp;&emsp;<font size=5>②数据集来源：经作者处理后的megaage_asian数据集</font>
 <br><br>
+
+
+<font size=6>**项目体验**</font>
+<br><br>
+&emsp;&emsp;&emsp;<font size=5>更完整更好的项目体验请访问AIStudio上作者的项目：</font>[项目](https://aistudio.baidu.com/aistudio/projectdetail/645654)
