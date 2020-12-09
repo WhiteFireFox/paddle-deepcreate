@@ -10,7 +10,7 @@
 &emsp;&emsp;<font size=5>4.预测</font>
 <br><br><br><br>
 
-<font size=5>**1.简单介绍Pix2pix和CyecleGAN**</font>
+<font size=5>**1.简单介绍Pix2pix和CycleGAN**</font>
 <br><br>
 
 &emsp;&emsp;&emsp;&emsp;<font size=4>**1.1.简单的认识并了解GAN**</font>
@@ -23,13 +23,13 @@
 <br><br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font size=3.5>可以从该博客中简单了解Pix2pix的原理：[博客](https://blog.csdn.net/stdcoutzyx/article/details/78820728)</font>
 <br><br>
-&emsp;&emsp;&emsp;&emsp;<font size=4>**1.3.简单的认识并了解CyecleGAN**</font>
+&emsp;&emsp;&emsp;&emsp;<font size=4>**1.3.简单的认识并了解CycleGAN**</font>
 <br><br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font size=3.5>CyecleGAN论文地址：[“Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks”](https://arxiv.org/abs/1703.10593)</font>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font size=3.5>CycleGAN论文地址：[“Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks”](https://arxiv.org/abs/1703.10593)</font>
 <br><br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font size=3.5>可以从该博客中简单了解CyecleGAN的原理：[博客](https://blog.csdn.net/qq_21190081/article/details/78807931)</font>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font size=3.5>可以从该博客中简单了解CycleGAN的原理：[博客](https://blog.csdn.net/qq_21190081/article/details/78807931)</font>
 <br><br>
-&emsp;&emsp;&emsp;&emsp;<font size=4>**1.4.Pix2pix与CyecleGAN对比**</font>
+&emsp;&emsp;&emsp;&emsp;<font size=4>**1.4.Pix2pix与CycleGAN对比**</font>
 <br><br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font size=3.5>pix2pix必须使用成对的数据进行训练，即可以看作是一 一映射的。</font>
 <br><br>
@@ -37,7 +37,7 @@
 <br><br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font size=3.5>但在现实生活中一 一对应的数据是很难获取到的，比如下面的图，我们想把一处风景变成某种风格的油画，现实生活中是很少有与数据集中该风景相对应的油画的（哪有那么多的画家嘛QAQ）：</font>
 <br><br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font size=3.5>因此CyecleGAN就是为了解决这样一个问题，就是训练集不一定需要在两个域(domain)中有完全配对的图，只需要两种模式不同的图即可。</font>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<font size=3.5>因此CycleGAN就是为了解决这样一个问题，就是训练集不一定需要在两个域(domain)中有完全配对的图，只需要两种模式不同的图即可。</font>
 <br><br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="https://ai-studio-static-online.cdn.bcebos.com/983e208bb20d4026882648853eae9482fba1a2d3fd5c4530be42b95c199fdb82" style="zoom:110%">
 <br><br>
